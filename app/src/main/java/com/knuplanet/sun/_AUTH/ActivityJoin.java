@@ -23,7 +23,7 @@ public class ActivityJoin extends AppCompatActivity {
     @Bind(R.id.join_text_password_check)
     EditText mTextPasswordCheck;
 
-    @OnClick({ R.id.join_btn_submit }) void onClick(Button btn) {
+    @OnClick({ R.id.join_btn_submit, R.id.btn_home }) void onClick(Button btn) {
         switch(btn.getId()) {
             case R.id.join_btn_submit:
                 if (verifyUsername()) {
@@ -31,6 +31,10 @@ public class ActivityJoin extends AppCompatActivity {
 
                     }
                 }
+                break;
+
+            case R.id.btn_home:
+                finish();
                 break;
         }
     }

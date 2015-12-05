@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SUN</string>
+
+
+
+    <string name="msg_error_server_title">서버오류</string>
+    <string name="msg_error_server_content">서버에 오류가 발생했습니다. 관리자에게 문의하세요. 010-6233-8509</string>
+
+    <string name="msg_error_login_verify_title">로그인 정보 입력 오류</string>
+    <string name="msg_error_login_verify_content">정확한 정보를 입력해주세요.</string>
 </resources>
