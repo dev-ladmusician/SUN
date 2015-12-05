@@ -30,8 +30,6 @@ public class ActivityLogin extends AppCompatActivity {
     @Bind(R.id.login_text_password)
     EditText mTextPassword;
 
-    //AlertDialog.Builder mAlertDialogBuilder = null;
-
     @OnClick({ R.id.login_btn_submit, R.id.btn_home }) void onClick(Button btn) {
         switch(btn.getId()) {
             case R.id.login_btn_submit:
